@@ -10,8 +10,19 @@ plan = [
       "id": 2
     }
 ]
-user = {"username":"Michelle Yilin Feng"}
+user = {"username":"Michelle Yilin Feng","userId":"1"}
 
+info_plan1={
+    'courses': 'CAS CS 131||CAS CS 132||CAS CS 210', 
+    'user_id': 1, 
+    'planname': 'test', 
+    'AvgScore': 3.0, 
+    'LateTime': '21:00', 
+    'id': 1, 
+    'semester': '2024-SPRG', 
+    'EarlyTime': '08:00', 
+    'planNum': -1
+}
 
 courses= [
   "CAS AA 103: Introduction to African American Literature (CASAA103, AA103)",

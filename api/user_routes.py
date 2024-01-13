@@ -7,8 +7,8 @@ user_api = Blueprint('user_api', __name__)
 def get_users():
     return jsonify(user)
 
-@user_api.route('/getPlan', methods=['GET'])
-def get_plan():
+@user_api.route('/<int:userId>/getPlan', methods=['GET'])
+def get_plan(userId):
     return jsonify(plan)
 
 
